@@ -20,3 +20,7 @@ Route::get('/saymon', function () {
     echo "A hora atual é: " . date("h:i:sa") . "<br>";
     echo '<h1>O nome da minha esposa é: Mirla 💓</h1>';
 });
+
+Route::get('/anything', function () {
+    echo 'Qualquer coisa';
+});
