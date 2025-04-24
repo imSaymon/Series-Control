@@ -13,3 +13,9 @@ Route::get('/ola', function () {
     echo "Today is " . date("l") . "<br>";
     echo "The time is " . date("h:i:sa") . "<br>";
 });
+
+
+Route::get('/saymon', function () {
+    echo '<h1>Olá, meu nome é: Saymon Lee Furtado Rodrigues</h1>';
+    echo "A hora atual é: " . date("h:i:sa") . "<br>";
+});
