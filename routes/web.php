@@ -18,5 +18,5 @@ Route::get('/ola', function () {
 Route::get('/saymon', function () {
     echo '<h1>Olá, meu nome é: Saymon Lee Furtado Rodrigues</h1>';
     echo "A hora atual é: " . date("h:i:sa") . "<br>";
-    echo '<h1>O nome da minha esposa é: Mirla</h1>';
+    echo '<h1>O nome da minha esposa é: Mirla 💓</h1>';
 });
