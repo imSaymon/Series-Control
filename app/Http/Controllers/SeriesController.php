@@ -13,7 +13,6 @@ class SeriesController extends Controller
         $series = Serie::query()->orderBy('nome')->get();
 
         return \view('series.index')->with('series', $series);
-            
     }
 
     public function create()
